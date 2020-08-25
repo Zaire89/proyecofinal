@@ -1,0 +1,147 @@
+            @import "_colores";
+            @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600;900&family=Satisfy&display=swap');
+            header {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+                padding-top: 0.5rem;
+                img {
+                    width: 300px;
+                }
+                #frase {
+                    color: $secondary;
+                    font-weight: 300;
+                    font-size: 0.9rem;
+                    letter-spacing: 0.1rem;
+                    text-align: center;
+                }
+            }
+            
+            nav {
+                background-color: $secondary;
+                height: 4rem;
+                .navbar-brand {
+                    height: 3.140rem;
+                    padding-top: 0.125rem;
+                    padding-top: 0.125rem;
+                }
+                ul {
+                    width: 100%;
+                    display: inline-block;
+                    flex-direction: row;
+                    justify-content: right;
+                    padding-top: 0.313rem;
+                    li.nav-item {
+                        background-color: black;
+                        list-style: none;
+                        font-weight: 600;
+                        display: inline-block;
+                        font-size: 0.9rem;
+                        padding: 0.5rem;
+                        margin-right: 0.5rem;
+                        a {
+                            background-color: black;
+                            color: $primary;
+                            text-decoration: none;
+                            font-family: montserrat;
+                        }
+                        a:hover {
+                            color: coral;
+                        }
+                    }
+                }
+            }
+            
+            section {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                .titulos {
+                    font-family: satisfy;
+                    font-weight: 600;
+                    text-align: center;
+                    margin-bottom: 1.25rem;
+                }
+                .tabla {
+                    padding-top: 10rem;
+                }
+                .datos {
+                    padding-top: 20px;
+                    padding-right: 8px;
+                    text-justify: center;
+                }
+                em {
+                    font-size: 0.8rem;
+                }
+                .divPubli {
+                    font-weight: 900;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    text-align: center;
+                    font-size: 1.5rem;
+                    font-family: montserrat;
+                    animation-name: animate_off;
+                    animation-iteration-count: infinite;
+                    animation-timing-function: linear;
+                    animation-duration: 5s;
+                    animation-delay: 1s;
+                }
+                @keyframes animate_off {
+                    0% {
+                        transform: translate(0px, -200px);
+                    }
+                    50% {
+                        transform: translate(0px, -80px);
+                        transform: rotate(180deg);
+                    }
+                    80% {
+                        transform: translate(0px, 0px);
+                        transform: rotate(360deg);
+                    }
+                    100% {
+                        transform: translate(0px, 0px);
+                        transform: scale(1.4);
+                    }
+                }
+                .divTexto {
+                    width: 600px;
+                    margin-left: 3.125rem;
+                    margin-right: 0.9rem;
+                    margin-bottom: 1.8rem;
+                }
+                .divImg {
+                    margin-top: 3rem;
+                    margin-right: 3.12rem;
+                    height: 17.5rem;
+                }
+            }
+            
+            .page-section {
+                padding-top: 7rem;
+                padding-bottom: 9.37rem;
+            }
+            
+            footer {
+                height: 4rem;
+                background-color: $secondary;
+                display: flex;
+                flex-direction: column;
+                flex-wrap: nowrap;
+                justify-content: center;
+                align-items: center;
+                letter-spacing: 0.313rem;
+                .iconos {
+                    padding-bottom: 0.4rem;
+                    &:hover {
+                        transform: rotate(-15deg);
+                    }
+                }
+                .dire {
+                    color: $primary;
+                    font-size: 0.625rem;
+                }
+            }
+            
+            @media (min-width: 576px) {}

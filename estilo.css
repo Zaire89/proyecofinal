@@ -1,0 +1,237 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600;900&family=Satisfy&display=swap");
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  padding-top: 0.5rem;
+}
+
+header img {
+  width: 300px;
+}
+
+header #frase {
+  color: black;
+  font-weight: 300;
+  font-size: 0.9rem;
+  letter-spacing: 0.1rem;
+  text-align: center;
+}
+
+nav {
+  background-color: black;
+  height: 4rem;
+}
+
+nav .navbar-brand {
+  height: 3.140rem;
+  padding-top: 0.125rem;
+  padding-top: 0.125rem;
+}
+
+nav ul {
+  width: 100%;
+  display: inline-block;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  padding-top: 0.313rem;
+}
+
+nav ul li.nav-item {
+  background-color: black;
+  list-style: none;
+  font-weight: 600;
+  display: inline-block;
+  font-size: 0.9rem;
+  padding: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+nav ul li.nav-item a {
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  font-family: montserrat;
+}
+
+nav ul li.nav-item a:hover {
+  color: coral;
+}
+
+section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+section .titulos {
+  font-family: satisfy;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 1.25rem;
+}
+
+section .tabla {
+  padding-top: 10rem;
+}
+
+section .datos {
+  padding-top: 20px;
+  padding-right: 8px;
+  text-justify: center;
+}
+
+section em {
+  font-size: 0.8rem;
+}
+
+section .divPubli {
+  font-weight: 900;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: montserrat;
+  -webkit-animation-name: animate_off;
+          animation-name: animate_off;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+
+@-webkit-keyframes animate_off {
+  0% {
+    -webkit-transform: translate(0px, -200px);
+            transform: translate(0px, -200px);
+  }
+  50% {
+    -webkit-transform: translate(0px, -80px);
+            transform: translate(0px, -80px);
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+  }
+  80% {
+    -webkit-transform: translate(0px, 0px);
+            transform: translate(0px, 0px);
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+  100% {
+    -webkit-transform: translate(0px, 0px);
+            transform: translate(0px, 0px);
+    -webkit-transform: scale(1.4);
+            transform: scale(1.4);
+  }
+}
+
+@keyframes animate_off {
+  0% {
+    -webkit-transform: translate(0px, -200px);
+            transform: translate(0px, -200px);
+  }
+  50% {
+    -webkit-transform: translate(0px, -80px);
+            transform: translate(0px, -80px);
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+  }
+  80% {
+    -webkit-transform: translate(0px, 0px);
+            transform: translate(0px, 0px);
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+  100% {
+    -webkit-transform: translate(0px, 0px);
+            transform: translate(0px, 0px);
+    -webkit-transform: scale(1.4);
+            transform: scale(1.4);
+  }
+}
+
+section .divTexto {
+  width: 600px;
+  margin-left: 3.125rem;
+  margin-right: 0.9rem;
+  margin-bottom: 1.8rem;
+}
+
+section .divImg {
+  margin-top: 3rem;
+  margin-right: 3.12rem;
+  height: 17.5rem;
+}
+
+.page-section {
+  padding-top: 7rem;
+  padding-bottom: 9.37rem;
+}
+
+footer {
+  height: 4rem;
+  background-color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  letter-spacing: 0.313rem;
+}
+
+footer .iconos {
+  padding-bottom: 0.4rem;
+}
+
+footer .iconos:hover {
+  -webkit-transform: rotate(-15deg);
+          transform: rotate(-15deg);
+}
+
+footer .dire {
+  color: white;
+  font-size: 0.625rem;
+}
+/*# sourceMappingURL=estilo.css.map */
