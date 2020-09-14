@@ -1,0 +1,219 @@
+                    @import "_colores";
+                    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600;900&family=Satisfy&display=swap');
+                    
+                    html,body{
+                        height: 100%;
+                        width: 100%;
+                    }
+                    
+                    header {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        text-align: center;
+                        padding-top: 0.5rem;
+                        img {
+                            width: 300px;
+                        }
+                        #frase {
+                            color: $secondary;
+                            font-weight: 300;
+                            font-size: 0.9rem;
+                            letter-spacing: 0.1rem;
+                            text-align: center;
+                        }
+                    }
+                    
+                    nav {
+                        background-color: $secondary;
+                        height: 4rem;
+                        .navbar-brand {
+                            height: 3.140rem;
+                            padding-top: 0.125rem;
+                            padding-top: 0.125rem;
+                        }
+                        ul {
+                            width: 100%;
+                            display: inline-block;
+                            flex-direction: row;
+                            justify-content: right;
+                            padding-top: 0.313rem;
+                            li.nav-item {
+                                background-color: black;
+                                list-style: none;
+                                font-weight: 600;
+                                display: inline-block;
+                                font-size: 0.9rem;
+                                padding: 0.5rem;
+                                margin-right: 0.5rem;
+                                a {
+                                    background-color: black;
+                                    color: $primary;
+                                    text-decoration: none;
+                                    font-family: montserrat;
+                                }
+                                a:hover {
+                                    color: coral;
+                                }
+                            }
+                        }
+                    }
+                    
+                    section {
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: center;
+                        .titulos {
+                            font-family: satisfy;
+                            font-weight: 600;
+                            text-align: center;
+                            margin-bottom: 1.15rem;
+                        }
+                        ul.sub {
+                            display: block;
+                            list-style-type: none;
+                            margin-top: 200px;
+                            padding: 0;
+                            width: auto;
+                            background-color:black;
+                            flex-direction: column;
+                            justify-content: start;
+                            align-items: flex-start;
+                            li a {
+                                display: block;
+                                color: white;
+                                padding: 8px 16px;
+                                text-decoration: none;
+                                font-family: montserrat;
+                              }
+                            a:hover {
+                                color: coral;
+                            }
+                        }
+                          
+                        #comercial {
+                            margin-top: 60px;
+                        }
+                        #serv {
+                            text-transform: uppercase;
+                            letter-spacing: 4px;
+                            font-weight: bold;
+                        }
+                        .packs {
+                            padding-top: 80px;
+                        }
+
+                        #img-serv {
+                            width: 100%;
+                            height: 700px;
+                            background-size: cover;
+                            position: absolute;
+                            z-index: -2; 
+                        }
+
+                        .divTexto {
+                            display: block;
+                            color: $secondary;
+                            margin-right: 0.9rem;
+                            margin-bottom: 1.8rem;  
+                        }
+
+                        .divImg {
+                            display: block;
+                        }
+                        
+
+                        #img-form {
+                            width: 100%;
+                            height: cover;
+                            position: fixed;
+                            z-index: -2;
+                        }
+                        .contact {
+                            display: block;
+                            background-color: #E8B48E;
+                            font-family: montserrat;
+                            font-size: 6px;
+                            border: 3px outset #e4c2aa;
+                            border-radius: 12px;
+                            padding-top: 10px;
+                            padding-bottom: 18px;
+                            position: relative;
+                            .datos {
+                                padding-top: 10px;
+                                text-justify: center;
+                                 ::placeholder {
+                                    font-family: montserrat;
+                                    font-size: 14px;
+                                }
+                                .custom-select {
+                                    font-family: montserrat;
+                                    font-size: 14px;
+                                }
+                                em {
+                                    font-size: 0.8rem;
+                                }
+                                .btn {
+                                    width: 120px;
+                                    font-family: montserrat;
+                                    font-weight: 600;
+                                    border-radius: 90px;
+                                }
+                                .btn:hover {
+                                    background-color: coral;
+                                    outline: none;
+                                }
+                                .btn:focus {
+                                    background-color: black;
+                                    color: #E8B48E;
+                                    outline: none;
+                                }
+                            }
+                        }
+                        p {
+                            font-family: montserrat;
+                            font-size: 14px;
+                        }
+                        .map {
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            align-items: center;
+                        }
+                        .sombra {
+                            text-shadow: 2px 2px 2px black;
+                        }
+                    }
+                    
+                    .page-section {
+                        padding-top: 6.3rem;
+                        padding-bottom: 9.37rem;
+                    }
+                    
+                    footer {
+                        height: 4rem;
+                        background-color: $secondary;
+                        display: flex;
+                        flex-direction: column;
+                        flex-wrap: nowrap;
+                        justify-content: center;
+                        align-items: center;
+                        letter-spacing: 0.313rem;
+                        .iconos {
+                            padding-bottom: 0.4rem;
+                            &:hover {
+                                transform: rotate(-15deg);
+                            }
+                        }
+                        .dire {
+                            color: $primary;
+                            font-size: 0.625rem;
+                        }
+                    }
+
+                    
+                    @media only screen and (max-width:992px) {
+                        #img-form {
+                            height: 1240px;
+                        }
+                    }

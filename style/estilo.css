@@ -1,0 +1,304 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600;900&family=Satisfy&display=swap");
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  padding-top: 0.5rem;
+}
+
+header img {
+  width: 300px;
+}
+
+header #frase {
+  color: black;
+  font-weight: 300;
+  font-size: 0.9rem;
+  letter-spacing: 0.1rem;
+  text-align: center;
+}
+
+nav {
+  background-color: black;
+  height: 4rem;
+}
+
+nav .navbar-brand {
+  height: 3.140rem;
+  padding-top: 0.125rem;
+  padding-top: 0.125rem;
+}
+
+nav ul {
+  width: 100%;
+  display: inline-block;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  padding-top: 0.313rem;
+}
+
+nav ul li.nav-item {
+  background-color: black;
+  list-style: none;
+  font-weight: 600;
+  display: inline-block;
+  font-size: 0.9rem;
+  padding: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+nav ul li.nav-item a {
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  font-family: montserrat;
+}
+
+nav ul li.nav-item a:hover {
+  color: coral;
+}
+
+section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+section .titulos {
+  font-family: satisfy;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 1.15rem;
+}
+
+section ul.sub {
+  display: block;
+  list-style-type: none;
+  margin-top: 200px;
+  padding: 0;
+  width: auto;
+  background-color: black;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+section ul.sub li a {
+  display: block;
+  color: white;
+  padding: 8px 16px;
+  text-decoration: none;
+  font-family: montserrat;
+}
+
+section ul.sub a:hover {
+  color: coral;
+}
+
+section #comercial {
+  margin-top: 60px;
+}
+
+section #serv {
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-weight: bold;
+}
+
+section .packs {
+  padding-top: 80px;
+}
+
+section #img-serv {
+  width: 100%;
+  height: 700px;
+  background-size: cover;
+  position: absolute;
+  z-index: -2;
+}
+
+section .divTexto {
+  display: block;
+  color: black;
+  margin-right: 0.9rem;
+  margin-bottom: 1.8rem;
+}
+
+section .divImg {
+  display: block;
+}
+
+section #img-form {
+  width: 100%;
+  height: cover;
+  position: fixed;
+  z-index: -2;
+}
+
+section .contact {
+  display: block;
+  background-color: #E8B48E;
+  font-family: montserrat;
+  font-size: 6px;
+  border: 3px outset #e4c2aa;
+  border-radius: 12px;
+  padding-top: 10px;
+  padding-bottom: 18px;
+  position: relative;
+}
+
+section .contact .datos {
+  padding-top: 10px;
+  text-justify: center;
+}
+
+section .contact .datos ::-webkit-input-placeholder {
+  font-family: montserrat;
+  font-size: 14px;
+}
+
+section .contact .datos :-ms-input-placeholder {
+  font-family: montserrat;
+  font-size: 14px;
+}
+
+section .contact .datos ::-ms-input-placeholder {
+  font-family: montserrat;
+  font-size: 14px;
+}
+
+section .contact .datos ::placeholder {
+  font-family: montserrat;
+  font-size: 14px;
+}
+
+section .contact .datos .custom-select {
+  font-family: montserrat;
+  font-size: 14px;
+}
+
+section .contact .datos em {
+  font-size: 0.8rem;
+}
+
+section .contact .datos .btn {
+  width: 120px;
+  font-family: montserrat;
+  font-weight: 600;
+  border-radius: 90px;
+}
+
+section .contact .datos .btn:hover {
+  background-color: coral;
+  outline: none;
+}
+
+section .contact .datos .btn:focus {
+  background-color: black;
+  color: #E8B48E;
+  outline: none;
+}
+
+section p {
+  font-family: montserrat;
+  font-size: 14px;
+}
+
+section .map {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+section .sombra {
+  text-shadow: 2px 2px 2px black;
+}
+
+.page-section {
+  padding-top: 6.3rem;
+  padding-bottom: 9.37rem;
+}
+
+footer {
+  height: 4rem;
+  background-color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  letter-spacing: 0.313rem;
+}
+
+footer .iconos {
+  padding-bottom: 0.4rem;
+}
+
+footer .iconos:hover {
+  -webkit-transform: rotate(-15deg);
+          transform: rotate(-15deg);
+}
+
+footer .dire {
+  color: white;
+  font-size: 0.625rem;
+}
+
+@media only screen and (max-width: 992px) {
+  #img-form {
+    height: 1240px;
+  }
+}
+/*# sourceMappingURL=estilo.css.map */
